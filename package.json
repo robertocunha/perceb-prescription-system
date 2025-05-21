@@ -1,0 +1,18 @@
+{
+  "name": "perceb-rx",
+  "version": "1.0.0",
+  "description": "Sistema de geração de receitas médicas e envio de emails após compras no Stripe",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node generate_pdf.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.5.0",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.7",
+    "nodemailer-mailgun-transport": "^2.1.5",
+    "puppeteer": "^21.5.2"
+  }
+}
